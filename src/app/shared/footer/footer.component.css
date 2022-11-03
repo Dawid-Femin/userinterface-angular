@@ -1,0 +1,43 @@
+.footerContainer {
+    border-top: 3px solid #c10f1b;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    flex-basis: 20%;
+}
+
+.description span {
+    font-weight: bold;
+}
+
+.description ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+.description ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.copyright {
+    background-color: #c10f1b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+p {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    .footerContainer {
+        flex-direction: column;
+    }
+}

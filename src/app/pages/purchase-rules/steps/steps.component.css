@@ -1,0 +1,50 @@
+.stepsContainer {
+    max-width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.number {
+    flex-basis: 15%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.step {
+    flex-basis: 70%;
+    padding: 25px;
+    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+h1 {
+    color: #c10f1b;
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    .stepsContainer{
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    
+    .number {
+        margin: 20px;
+    }
+
+    .step {
+        margin: 20px;
+    }
+}

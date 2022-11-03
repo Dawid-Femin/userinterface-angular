@@ -1,0 +1,44 @@
+.opinionContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 50px auto 80px auto;
+}
+
+.opinion {
+    flex-basis: 30%;
+    min-height: 200px;
+    margin: 10px;
+    background-color: #eee;
+    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+h1 {
+    font-size: 1.4em;
+    color: #c10f1b;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.opinion:hover {
+    background-color: #ccc;
+}
+
+.opinion p span {
+    font-weight: bold;
+}
+
+@media (max-width: 720px) {
+    .opinionContainer{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,13 @@
+.headerContainer{
+    margin-top: 80px;
+}
+
+.headerContainer img {
+    width: 100vw;
+}
+
+@media (max-width: 720px) {
+    .headerContainer img {
+        min-width: 500px;
+    }
+}

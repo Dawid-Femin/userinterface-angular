@@ -1,0 +1,23 @@
+h1 {
+    color: #c10f1b;
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.carImages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img.imageSize {
+    width: 300px;
+    padding: 20px; 
+}
+

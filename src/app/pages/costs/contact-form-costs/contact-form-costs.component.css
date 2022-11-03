@@ -1,0 +1,48 @@
+.formContainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+input {
+    flex-basis: 45%;
+    margin-top: 40px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #ccc;
+    font-size: 18px;
+    border-bottom: 2px solid #c10f1b;
+    padding: 0 20px;
+}
+
+textarea {
+    flex-basis: 95%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    background-color: #ccc;
+    font-size: 18px;
+    border-bottom: 2px solid #c10f1b;
+    padding: 10px 20px;
+    font-family: 'Poppins';
+}
+
+@media (max-width: 720px) {
+    .formContainer {
+        flex-direction: column;
+    }
+
+    input {
+        flex-basis: 50px;
+        width: 90%;
+        margin: 40px auto 0 auto;
+    }
+
+    textarea {
+        width: 90%;
+        margin: 40px auto 0 auto;
+    }
+}
